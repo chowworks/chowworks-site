@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Start a project · Chow.Works</title>
+  <meta name="description" content="Tell us what you want to build. Chow.Works builds software for schools, government, nonprofits, and the people who run them.">
+  <link rel="canonical" href="https://chow.works/build/">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://chow.works/build/">
+  <meta property="og:title" content="Start a project with Chow.Works">
+  <meta property="og:description" content="Got an idea that won't leave you alone? Tell us what it is.">
+  <meta property="og:image" content="https://chow.works/og-image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <meta name="theme-color" content="#f6f7f4">
+  <link rel="stylesheet" href="/assets/site.css">
+</head>
+<body>
+
+<header class="nav">
+  <div class="wrap">
+    <a class="logo" href="/" aria-label="Chow.Works home">chow<span class="slash">/</span>works</a>
+    <nav class="nav-links" aria-label="Main">
+      <a href="/work/">Work</a>
+      <a href="/about/">About</a>
+      <a class="btn btn-blue btn-sm" href="/build/" aria-current="page">Start a project</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <div class="page-head">
+    <div class="wrap">
+      <p class="eyebrow">chow<span class="slash">/</span>build</p>
+      <h1>Got an idea that won't leave you alone?</h1>
+      <p class="lede">Tell us what you want to build and who it's for. Chris reads every message and replies within two business days.</p>
+    </div>
+  </div>
+
+  <section class="wrap build">
+    <div>
+      <ol class="process">
+        <li><div><h3>Intro call</h3><p>Thirty minutes, free. We learn what you need and tell you honestly if we're the right fit.</p></div></li>
+        <li><div><h3>Scope and prototype</h3><p>We turn the idea into a plan and a clickable prototype you can put in front of real users or funders.</p></div></li>
+        <li><div><h3>Build in short cycles</h3><p>You see working software every week or two and steer as we go. No disappearing for three months.</p></div></li>
+        <li><div><h3>Launch and hand off</h3><p>We ship it, document it, and make sure your team can run it. Ongoing support is there if you want it.</p></div></li>
+      </ol>
+      <div class="aside-note"><b>What does it cost?</b> Every build is different, so we don't publish a rate card. After the intro call you'll get a clear estimate before any work starts.</div>
+    </div>
+
+    <div>
+      <form class="form" id="intake" action="https://formsubmit.co/chris@chow.works" data-ajax="https://formsubmit.co/ajax/chris@chow.works" method="POST">
+        <h2>Tell us about it</h2>
+        <input type="hidden" name="_subject" value="New project inquiry from chow.works">
+        <input type="hidden" name="_template" value="table">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_next" value="https://chow.works/build/#sent">
+        <input type="text" name="_honey" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+
+        <div class="field-row">
+          <div class="field"><label for="name">Your name</label><input id="name" name="name" autocomplete="name" required></div>
+          <div class="field"><label for="email">Email</label><input id="email" name="email" type="email" autocomplete="email" required></div>
+        </div>
+        <div class="field"><label for="org">Organization <small>(optional)</small></label><input id="org" name="organization" autocomplete="organization"></div>
+
+        <fieldset class="field" style="border:0;padding:0;margin:0">
+          <legend style="font-weight:700;font-size:15px;margin-bottom:8px">What kind of organization?</legend>
+          <div class="chips">
+            <input type="radio" id="t-school" name="type" value="School or training program"><label for="t-school">School or training program</label>
+            <input type="radio" id="t-gov" name="type" value="Government"><label for="t-gov">Government</label>
+            <input type="radio" id="t-np" name="type" value="Nonprofit"><label for="t-np">Nonprofit</label>
+            <input type="radio" id="t-other" name="type" value="Startup or something else"><label for="t-other">Startup or something else</label>
+          </div>
+        </fieldset>
+
+        <div class="field"><label for="idea">What do you want to build?</label><textarea id="idea" name="idea" placeholder="What problem does it solve, who uses it, and what's in the way today?" required></textarea></div>
+
+        <div class="field">
+          <label for="when">When do you need it?</label>
+          <select id="when" name="timeline">
+            <option>Just exploring</option>
+            <option>In the next 3 months</option>
+            <option>In 3 to 6 months</option>
+            <option>There's a hard deadline (tell us above)</option>
+          </select>
+        </div>
+
+        <div class="form-foot">
+          <p>Rather email? <a href="mailto:chris@chow.works">chris@chow.works</a></p>
+          <button class="btn btn-blue" type="submit">Send it</button>
+        </div>
+      </form>
+      <div class="sent" id="sent" role="status">Got it. Chris will reply within two business days. Keep an eye on your inbox, and your spam folder just in case.</div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <a class="logo" href="/">chow<span class="slash">/</span>works</a>
+    <nav aria-label="Footer">
+      <a href="/work/">Work</a>
+      <a href="/about/">About</a>
+      <a href="/build/">Start a project</a>
+      <a href="https://chrishoward.fyi" target="_blank" rel="noopener">chrishoward.fyi</a>
+      <a href="mailto:chris@chow.works">chris@chow.works</a>
+    </nav>
+  </div>
+</footer>
+
+<script src="/assets/site.js" defer></script>
+</body>
+</html>
