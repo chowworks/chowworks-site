@@ -29,9 +29,9 @@ The source for [chow.works](https://chow.works): plain HTML, CSS, and JavaScript
 
 | Path | Page |
 | --- | --- |
-| `/` | Home: who we build for, our products as proof, how we use AI |
+| `/` | Home: our products as proof, the animated development process, who we build for |
 | `/build/` | Start a project. The intake form, linked from chrishoward.fyi |
-| `/work/` | Product showcase: learn/differently, audit/differently, InterviewDifferently, Travel HQ |
+| `/work/` | Product showcase: learn/differently, audit/differently, interview/differently, Travel HQ |
 | `/about/` | The collective, and Chris Howard's 25 years |
 | `/404.html` | Not found, which routes back to /build |
 
@@ -42,7 +42,7 @@ The source for [chow.works](https://chow.works): plain HTML, CSS, and JavaScript
 ├── 404.html
 ├── assets/
 │   ├── site.css          all styles
-│   ├── site.js           nav state + intake form submit
+│   ├── site.js           nav, intake form, development-process animation
 │   ├── img/              product screenshots
 │   └── brand/            logos and README preview
 ├── favicon.svg / .ico, apple-touch-icon.png, og-image.png
@@ -77,4 +77,4 @@ The type is **Manrope** for everything, plus **JetBrains Mono** for small labels
 
 1. **Pages:** in Settings → Pages, deploy from `main` at the root. `CNAME` is already set to `chow.works`.
 2. **DNS (Spaceship):** add A records for `chow.works` pointing to `185.199.108.153`, `185.199.109.153`, `185.199.110.153`, and `185.199.111.153`, plus a `www` CNAME pointing to `chowworks.github.io`.
-3. **Intake form:** the form posts through [FormSubmit](https://formsubmit.co) to `chris@chow.works`. The first submission sends an activation email to that inbox. Click the link once, and every later submission arrives.
+3. **Intake form:** the form posts through [FormSubmit](https://formsubmit.co) to `contact@chow.works`. The first submission sends an activation email to that inbox. Click the link once, and every later submission arrives.

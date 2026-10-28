@@ -37,17 +37,17 @@
     <div class="wrap">
       <div class="hero-copy">
         <p class="eyebrow">Software studio · Washington, DC</p>
-        <h1>Software for schools, government, nonprofits, <em>and the people who run them.</em></h1>
-        <p class="lede">We're a collective of senior engineers led by Chris Howard, who has spent 25 years building software for NASA, national security agencies, and AWS. We use AI to move fast, and that experience to know where it's wrong.</p>
+        <h1>Software that can't fail, <em>for the people who can't afford it to.</em></h1>
+        <p class="lede">Schools, agencies, and nonprofits run on small teams with no room for broken software. We're a collective of senior software engineers led by Chris Howard, who has spent 25 years on systems for NASA, defense, intelligence, and big tech. AI makes us fast. That experience makes what we ship hold up.</p>
         <div class="btn-row">
           <a class="btn btn-blue" href="/build/">Start a project</a>
           <a class="btn btn-ghost" href="/work/">See what we've built</a>
         </div>
       </div>
       <div class="hero-stack" aria-hidden="true">
-        <figure><img src="/assets/img/learn.jpg" alt="" width="1280" height="800"><figcaption>learn/differently</figcaption></figure>
+        <figure><img src="/assets/img/interview.jpg" alt="" width="1280" height="800"><figcaption>interview/differently</figcaption></figure>
         <figure><img src="/assets/img/audit.jpg" alt="" width="1280" height="800"><figcaption>audit/differently</figcaption></figure>
-        <figure><img src="/assets/img/interview.jpg" alt="" width="1280" height="800"><figcaption>InterviewDifferently</figcaption></figure>
+        <figure><img src="/assets/img/learn.jpg" alt="" width="1280" height="800"><figcaption>learn/differently</figcaption></figure>
       </div>
     </div>
   </section>
@@ -60,29 +60,26 @@
         <p class="lede">Each one solves a real problem for the kind of organization we work with. They're live, and you can try them today.</p>
       </div>
       <div class="products">
-        <article class="card">
-          <div class="card-shot"><img src="/assets/img/learn.jpg" alt="The learn/differently homepage: training that adapts, admin work automated." width="1280" height="800" loading="lazy"></div>
+        <article class="card p-learn">
           <div class="card-body">
             <p class="for">Workforce programs · colleges</p>
-            <h3>learn<span class="slash">/</span>differently</h3>
+            <h3>learn<span class="slash s-learn">/</span>differently</h3>
             <p>AI adapts each learner's plan to the job they're training for, and the reporting builds itself so staff get time back for participants.</p>
             <a class="card-link" href="https://learndifferently.tech/" target="_blank" rel="noopener">Visit learndifferently.tech ↗</a>
           </div>
         </article>
-        <article class="card">
-          <div class="card-shot"><img src="/assets/img/audit.jpg" alt="The audit/differently homepage showing an audit readiness dashboard at 100%." width="1280" height="800" loading="lazy"></div>
+        <article class="card p-audit">
           <div class="card-body">
             <p class="for">Grant-funded nonprofits</p>
-            <h3>audit<span class="slash">/</span>differently</h3>
+            <h3>audit<span class="slash s-audit">/</span>differently</h3>
             <p>Proof is attached as grant money is spent and checked every month, so the audit package is ready before an auditor asks.</p>
             <a class="card-link" href="https://auditdifferently.tech/" target="_blank" rel="noopener">Visit auditdifferently.tech ↗</a>
           </div>
         </article>
-        <article class="card">
-          <div class="card-shot"><img src="/assets/img/interview.jpg" alt="The InterviewDifferently homepage: get interview ready, for real this time." width="1280" height="800" loading="lazy"></div>
+        <article class="card p-interview">
           <div class="card-body">
             <p class="for">Career centers · job seekers</p>
-            <h3>InterviewDifferently</h3>
+            <h3>interview<span class="slash s-interview">/</span>differently</h3>
             <p>AI workplace simulations put job seekers inside real decisions under pressure, then show exactly how they think.</p>
             <a class="card-link" href="https://interviewdifferently.com/" target="_blank" rel="noopener">Visit interviewdifferently.com ↗</a>
           </div>
@@ -94,23 +91,13 @@
   <section class="band" id="how">
     <div class="wrap">
       <div class="section-head">
-        <p class="eyebrow">How we use AI</p>
-        <h2>AI writes the first draft. A senior engineer decides what ships.</h2>
-        <p class="lede">AI makes small teams fast. Twenty-five years of shipping software for agencies that can't afford mistakes is how we keep it from making them sloppy.</p>
+        <p class="eyebrow">Our development process</p>
+        <h2>Built by senior engineers, at AI speed.</h2>
+        <p class="lede">AI is a power tool. In the wrong hands it just ships bugs faster. Ours have 25 years of building software for defense, intelligence, and big tech, so you get the speed without the mess.</p>
       </div>
-      <div class="steps">
-        <div class="step">
-          <h3>You see it working early</h3>
-          <p>AI lets us get a clickable prototype in front of you quickly, so you react to something real instead of a requirements document.</p>
-        </div>
-        <div class="step">
-          <h3>Every line gets reviewed</h3>
-          <p>Nothing AI-generated ships unreviewed. Security, accessibility, and your data get a senior engineer's attention, every time.</p>
-        </div>
-        <div class="step">
-          <h3>You own what we build</h3>
-          <p>Your code, your accounts, your data. We document it so your team, or the next one, can keep it running.</p>
-        </div>
+      <div class="orbit" id="orbit">
+        <div class="orbit-stage"><svg class="orbit-svg" role="img" aria-label="How we build: you describe it, senior engineers build a proof of concept, a fast prototype loop with you, then we secure and harden before launch"></svg></div>
+        <div class="orbit-detail" aria-live="polite"><span class="who"></span><h3></h3><p></p></div>
       </div>
     </div>
   </section>
@@ -145,19 +132,14 @@
   </section>
 
   <section id="experience" style="padding-top:0">
-    <div class="wrap exp">
+    <div class="wrap exp exp-solo">
       <div class="exp-copy">
         <p class="eyebrow">Who's behind it</p>
         <h2>25 years of software that couldn't fail.</h2>
-        <p class="lede">Chris Howard started at NASA Goddard in 2001, spent two decades building mission systems for national security agencies, and now leads engineering teams at AWS. He's also taught computer science since 2015. Chow.Works has been taking on builds since 2021.</p>
-        <p class="path">NASA <i>/</i> L-3 <i>/</i> Raytheon <i>/</i> Clarity <i>/</i> AWS <i>/</i> UMGC</p>
+        <p class="lede">Satellite data at NASA. A platform that grew from one agency to eighteen across defense and intelligence. Cloud and engineering leadership at AWS and Microsoft. Chris Howard has spent 25 years on software where failure costs far more than a bad week, and he has trained more than 200 engineers to work the same way.</p>
+        <p class="lede">That's the bar Chow.Works holds your project to, whether it's a grant tracker, a student portal, or the app your team has been faking in a spreadsheet. We've been building to it since 2021.</p>
+        <p class="path">NASA <i>/</i> L-3 <i>/</i> Raytheon <i>/</i> Clarity <i>/</i> AWS <i>/</i> Microsoft <i>/</i> UMGC</p>
         <div><a class="btn btn-ghost btn-sm" href="/about/">More about us</a></div>
-      </div>
-      <div class="stats">
-        <div class="stat"><b>25</b><span>years building software</span></div>
-        <div class="stat"><b>18</b><span>agencies served by a platform he scaled up from one</span></div>
-        <div class="stat"><b>200+</b><span>engineers hired and trained</span></div>
-        <div class="stat"><b>3</b><span>live products of our own</span></div>
       </div>
     </div>
   </section>
@@ -165,7 +147,7 @@
   <section class="cta">
     <div class="wrap">
       <div class="cta-box">
-        <h2>Got something that needs building?</h2>
+        <h2>Got a problem software should solve? Let's ship the fix.</h2>
         <p>Tell us what it is, who it's for, and what's in the way. We'll tell you honestly whether we're the right team.</p>
         <a class="btn btn-navy" href="/build/">Start a project</a>
       </div>
@@ -181,8 +163,7 @@
       <a href="/work/">Work</a>
       <a href="/about/">About</a>
       <a href="/build/">Start a project</a>
-      <a href="https://chrishoward.fyi" target="_blank" rel="noopener">chrishoward.fyi</a>
-      <a href="mailto:chris@chow.works">chris@chow.works</a>
+      <a href="mailto:contact@chow.works">contact@chow.works</a>
     </nav>
   </div>
 </footer>
